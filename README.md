@@ -1,14 +1,14 @@
 # Jepeto Compiler
 
-In this project, we implemented Jepeto language compiler using java from scratch. This language has almost all of the features of widely used programming languages; features such as computational, logical and comparative operators, function and function calls, flow control, scopes and an extra feature named **Anonymous Function**.
+In this project, we developed a compiler for the Jepeto programming language entirely from scratch using Java. Jepeto includes a wide range of features commonly found in popular programming languages, such as computational, logical, and comparative operators, function definitions and calls, flow control mechanisms, scoping, and an additional feature—Anonymous Functions.
 
-Different modules are included in this compiler as same as an ordinary compiler:
+The compiler consists of several key modules typical of a standard compiler architecture:
 
-* AST
+* Abstract Syntax Tree (AST)
 * Code Generator
 * Name Analyzer
 * Type Checker
 * Visitor
 * Grammar processor
 
-Tools such as Java, ANTLR, and Jasmin were used in different parts of the project from checking the grammar to generating bytecodes.
+We utilized a variety of tools throughout the development process, including Java, ANTLR, and Jasmin, to handle tasks ranging from grammar validation to bytecode generation.
